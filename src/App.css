@@ -1,6 +1,5 @@
 * {
   width: 100%;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,4 +10,13 @@
 ul,
 ol {
   list-style-type: none;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: relative;
 }

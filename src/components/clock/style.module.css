@@ -1,0 +1,64 @@
+.clock {
+  width: 70vh;
+  height: 70vh;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 100%;
+  position: relative;
+  background-image: url("../../assets/clock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #ece2d0;
+}
+
+.wrapper_short_arrow {
+  width: 55%;
+  height: 55%;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.wrapper_long_arrow {
+  width: 75%;
+  height: 75%;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%) rotate(90deg);
+}
+
+.long_arrow {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  width: 2.5rem;
+  height: 50%;
+  background-color: gray;
+  opacity: 0.65;
+}
+
+.short_arrow {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  width: 2.5rem;
+  height: 50%;
+  background-color: black;
+}
+
+.circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
